@@ -1,0 +1,12 @@
+import {Users} from './users';
+
+export const USERS: Users[] = [
+  { age: 20, name: 'Ann' },
+  { age: 25, name: 'Max' },
+  { age: 28, name: 'Margaret' },
+  { age: 19, name: 'John' },
+  { age: 21, name: 'Jennifer' },
+  { age: 30, name: 'Adrien' },
+  { age: 18, name: 'Tom' },
+  { age: 22, name: 'Mary'}
+]

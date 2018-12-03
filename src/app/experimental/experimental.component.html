@@ -1,0 +1,16 @@
+<!--<h1 *appDelay>Hello</h1>-->
+<!--<h1 appBold>Hello from experimental</h1>-->
+<!--<button (click)="fire()">CHILD</button>-->
+
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor="let coin of coins">
+    <td>{{coin.id}}</td>
+    <td>{{coin.name}}</td>
+  </tr>
+</table>
