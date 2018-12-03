@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Template driven forms</h2>
+<form #myForm="ngForm">
+
+  <label>Firstname:</label>
+  <input placeholder="firstname" name="firstname" class="form-control" required>
+
+  <label>Lastname</label>
+  <input placeholder="lastname" name="lastname" required>
+
+  <label>Age:</label>
+  <input placeholder="age" name="age">
+
+</form>
+
+<div>
+  Firstname: {{myForm.value.firstname}}
+</div>
+</body>
+</html>
